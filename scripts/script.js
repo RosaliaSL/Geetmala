@@ -46,7 +46,8 @@ let all_videos = [
                 "music/sad/ये जो मोहब्बत है  - Yeh Jo Mohabbat Hai 4K Video Song _ राजेश खन्ना - किशोर कुमार _ Kati Patang Song.mp3",
                 "music/sad/aaja piya tohe pyar du_Baharon Ke Sapne1967_AshaParekh& Rajesh Khanna_Lata_Majrooh_R D Burman _a tri.mp3",
                 "music/sad/Tujhse Naraaz Nahin Zindagi (Male) _ Masoom _ Naseeruddin Shah _ Jugal Hansraj _ #TujhseNaraazNahin.mp3",
-                "/Users/RosaliaSL/Desktop/Projects/Hackathons/Geetmala/music/sad/Guide 1965 Din dhal jaye hai raat na.mp3",
+                "music/sad/Guide 1965 Din dhal jaye hai raat na.mp3",
+                "music/sad/Jis Gali Mein Tera Ghar 4K Song _ Mukesh _ Rajesh Khanna _ Kati Patang _Classic Bollywood Video Song.mp3",
                 "music/sad/Jis Gali Mein Tera Ghar 4K Song _ Mukesh _ Rajesh Khanna _ Kati Patang _Classic Bollywood Video Song.mp3"
         ]
     },
