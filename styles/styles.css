@@ -87,14 +87,6 @@ body
     text-transform: uppercase;
 }
 
-/* .background .content .github {
-    margin-right: 7px;
-    margin-left: 1rem;
-    top: 70vh;
-    position: relative;
-    display: inline;
-} */
-
 .background .content .github .github-logo{
     height: 1.5rem;
     top: 95vh;
@@ -110,4 +102,98 @@ body
     position: absolute;
     top: 93.5vh;
     left: 3rem;
+}
+
+.background .content .controllers {
+    top: 68vh;
+    left: 37vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.background .content .controllers button {
+    margin: 0rem 0.2rem;
+    border: none;
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 50%;	
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    background: rgba(255,255,255,0.1);
+    position: relative;
+}
+
+.background .content .controllers button:hover{
+    height: 4.375rem;
+    width: 4.375rem;
+}
+
+.background .content .controllers i:before{
+	color: #fff;
+	font-size: 1.25rem;
+}
+
+.background .content .controllers .volume{
+    margin: 0rem 0rem;
+    border: none;
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 50%;	
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    background: rgba(255,255,255,0.1);
+    position: relative;
+}
+
+.background .content .controllers .volume i{
+	cursor: pointer;
+	padding: 0.5rem 0.75rem;
+}
+
+.background .content .controllers .volume:hover{
+    height: 4.375rem;
+    width: 4.375rem;
+}
+
+.background .content .controllers .volume #volume_show{
+	background: rgba(245,245,245,0.1);
+} 
+
+input[type="range"] {
+	-webkit-appearance: none;
+	width: 20%;
+	outline: none;
+	height: 0.125rem;
+	margin: 0 0.938rem;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	height: 0.938rem;
+	width: 0.938rem;
+	background: #FFF;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.background .content .current_theme {
+    position: relative;
+    top: 50vh;
+    left: 80vw;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-family: 'Teko', sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
 }
