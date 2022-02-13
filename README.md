@@ -1,6 +1,6 @@
 # Geetmala 📻 - An online version of Saregama Carvaan
 
-## Information related to Hack The League hackathon
+## Information related to the hackathon
 Theme: Diversity & Inclusion and Open Innovation
 
 This website falls under both the themes. 
