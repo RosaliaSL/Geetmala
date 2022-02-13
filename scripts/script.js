@@ -8,7 +8,9 @@ let volume_show = document.querySelector('#volume_show')
 let previous = document.querySelector('#pre');
 let play = document.querySelector('#play');
 let next = document.querySelector('#next');
-let volume_icon = document.querySelector('#volume_icon')
+let volume_icon = document.querySelector('#volume_icon');
+let pause_gif = document.querySelector('#pause-gif');
+let pause_text = document.querySelector('#pause-text');
 
 //create a audio Element
 let track = document.createElement('audio');
@@ -42,6 +44,8 @@ let all_videos = [
  ];
 
  function load_theme(index_no) {
+    pause_gif.style.display = 'none';
+    pause_text.style.display = 'none';
     playing_song = true;
     track.src = all_videos[index_no].music;
     track_video.src = all_videos[index_no].path;
@@ -90,6 +94,8 @@ function playsong(){
     track.play();
     playing_song = true;
     play.innerHTML = '<i class="fa fa-pause" aria-hidden="true"></i>';
+    pause_gif.style.display = 'none';
+    pause_text.style.display = 'none';
   }
   
   //pause song
@@ -97,6 +103,8 @@ function playsong(){
       track.pause();
       playing_song = false;
       play.innerHTML = '<i class="fa fa-play" aria-hidden="true"></i>';
+      pause_gif.style.display = 'initial';
+      pause_text.style.display = 'initial';
   }
 
 // reset song slider
