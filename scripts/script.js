@@ -25,8 +25,15 @@ let all_videos = [
         path: "videos/romance.mov",
         music: ["music/romance/Lag Jaa Gale - Sadhana, Lata Mangeshkar, Woh Kaun Thi Romantic Song.mp3", 
                 "music/romance/Tujhe Dekha Toh Song _ Dilwale Dulhania Le Jayenge _ Shah Rukh Khan, Kajol _ Lata, Kumar Sanu _ DDLJ.mp3",
-                "music/Camélia_Jordana_Moi_c_est.mp3",
-                "music/Danish_Girl_(getmp3.pro).mp3"]
+                "music/romance/Humein Tumse Pyar Kitna _ Sanam.mp3",
+                "music/romance/Chura Liya Hai Tumne Jo Dil Ko (Eng Sub) [Full Video Song] (HD) With Lyrics - Yaadon Ki Baaraat.mp3",
+                "music/romance/Tum Aa Gaye Ho Noor Aa Gaya Hai _ Lata Mangeshkar, Kishore Kumar _ Aandhi 1975 Songs _ Sanjeev Kumar.mp3",
+                "music/romance/Ek Ladki ko dekha - Full Video HD _ 1942 A love story _ Anil Kapoor _ Manisha Koirala.mp3",
+                "music/romance/Barsaat - Bheegi Bheegi Raaton Mein_Adnan Sami_Kabhi To Nazar Milao.mp3",
+                "music/romance/Kora Kagaz Tha Yeh Man Mera 4K Video Song _ Lata Mangeshkar_ Kishore Kumar _ Aradhana_ Rajesh Khanna.mp3",
+                "music/romance/Aap Ki Ankhon Mein Kuch - Kishore Kumar, Lata Mangeshkar, Ghar Romantic Song.mp3",
+                "music/romance/Likhe Jo Khat Tujhe Woh Teri Yaad Mein  [HD] 1080P.mp3"
+            ]
     },
     {
         name: "sad",
@@ -150,6 +157,20 @@ function next_song(){
 		playsong();
 	}else{
 		global_music_index = 0;
+		load_track(global_index_no, global_music_index);
+		playsong();
+	}
+}
+
+// previous song
+function previous_song(){
+	if(global_music_index > 0){
+		global_music_index-= 1;
+		load_track(global_index_no, global_music_index);
+		playsong();
+
+	}else{
+		global_music_index = all_videos[global_index_no].music.length - 1;
 		load_track(global_index_no, global_music_index);
 		playsong();
 	}
