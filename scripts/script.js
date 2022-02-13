@@ -42,9 +42,11 @@ let all_videos = [
  ];
 
  function load_theme(index_no) {
+    playing_song = true;
     track.src = all_videos[index_no].music;
     track_video.src = all_videos[index_no].path;
     theme_title.innerHTML = all_videos[index_no].name;
+    justplay();
  }
 
  load_theme(index_no);
