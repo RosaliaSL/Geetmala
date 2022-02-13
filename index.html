@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Geetmala</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/styles.css">
     <title></title>
   </head>
@@ -13,7 +14,29 @@
             <source src="videos/sad.mov">
         </video>
         <div class="content">
+            <!-- Logo -->
+            <p class="logo">📻</p>
             <h1>Geetmala</h1>
+
+            <!--Controllers-->
+            <div class="controllers">
+                <p id="volume_show">90</p>
+                <i class="fa fa-volume-up" aria-hidden="true" id="volume_icon" onclick="mute_sound()"></i>
+                <input type="range" min="0" max="100" value="90" onchange="volume_change()">
+
+                <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward" 
+                aria-hidden="true"></i></button>
+                <button onclick="justplay()" id="play"><i class="fa fa-play" 
+                aria-hidden="true"></i></button>
+                <button onclick="next_song()" id="next"><i class="fa fa-step-forward" 
+                aria-hidden="true"></i></button>
+            </div>
+
+            <!--Current Theme-->
+            <div class="current_theme">
+                <p id="current_theme_text">Sad</p>
+            </div>
+
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
