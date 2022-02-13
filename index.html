@@ -11,21 +11,20 @@
   
   <body>
       <div class ="background">
-          <video autoplay muted loop>
+          <video id = "track_video" autoplay muted loop>
             <source src="videos/sad.mov">
         </video>
         <div class="content">
             <!-- Logo -->
             <p class="logo">📻</p>
             <h1>Geetmala</h1>
-
             <!-- Themes-->
             <div class="themes">
-              <p>💿 Romance</p>
-              <p>💿 Sad</p>
-              <p>💿 Happy</p>
-              <p>💿 Sufi</p>
-              <p>💿 Ghazal</p>
+              <button onclick="load_theme(0)" class="astext">💿 Romance</button>
+              <button onclick="load_theme(1)" class="astext">💿 Sad</button>
+              <button onclick="load_theme(2)" class="astext">💿 Happy</button>
+              <button onclick="load_theme(3)" class="astext">💿 Sufi</button>
+              <button onclick="load_theme(4)" class="astext">💿 Ghazal</button>
             </div>
             <div class="github">
               <img class = "github-logo" src="images/github-logo.png" alt="github-logo">
@@ -50,10 +49,12 @@
             <!--Current Theme-->
             <div class="current_theme">
                 <p class="current_theme_text">Current Theme:</p>
-                <p class="current_theme_text">Sad</p>
+                <p id = "theme-title" class="current_theme_text">Sad</p>
             </div>
 
         </div>
       </div>
+      <!--- Add javascript file --->
+      <script src="scripts/script.js"></script>
   </body>
 </html>
