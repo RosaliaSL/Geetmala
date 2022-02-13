@@ -41,7 +41,7 @@ let all_videos = [
         music: ["music/sad/Lagi Aaj Sawan Ki Phir Wo Jhadi Hai.mp3",
                 "music/sad/Tere Bina Zindagi Se - Aandhi [1975] (Original)  - Lata Mangeshkar - Kishore Kumar.mp3", 
                 "music/sad/Kya Hua Tera Wada in HD.mp3",
-                "music/sad/Meri bheegi bheegi si ( Anamika) Kishor Kumar Full hd video Song 2021 #kishorkumar.mp3",
+                "music/sad/Meri bheegi bheegi si ( Anamika) Kishor Kumar Full hd video Song 2021.mp3",
                 "music/sad/Lata Mangeshkar - Kahin Door Jab Din Dhal Jaye (Official Audio).mp3",
                 "music/sad/ये जो मोहब्बत है  - Yeh Jo Mohabbat Hai 4K Video Song _ राजेश खन्ना - किशोर कुमार _ Kati Patang Song.mp3",
                 "music/sad/yara sili sili.mp3",
@@ -65,7 +65,12 @@ let all_videos = [
                 "music/sufi/Afreen Afreen _ Sangam (1996) _ Hindi Video Song _ Nusrat Fateh Ali Khan.mp3",
                 "music/sufi/Sanu Ek Pal Chain Video _ Raid _ Ajay Devgn _ Ileana D'Cruz_ Tanishk B Rahat Fateh Ali Khan Manoj M.mp3",
                 "music/sufi/Ishq Anokha -  Kailash Kher _ ft. Nawazuddin Siddiqui & Sobhita Dhulipala.mp3",
-                "music/sufi/Tere Ishq Nachaya - Official Music Video _ Samarjeet Randhava.mp3"]
+                "music/sufi/Tere Ishq Nachaya - Official Music Video _ Samarjeet Randhava.mp3",
+                "music/sufi/Charkha - Rahat Fateh Ali Khan.mp3",
+                "music/sufi/Meharbani Teri _ Best of  Kailash Kher Album _ Ishq Anokha.mp3",
+                "music/sufi/Akhiyan (Full Audio Song) _ Rahat Fateh Ali Khan _ Punjabi Song Collection _ Speed Records.mp3",
+                "music/sufi/O Jogi Music Video ft Mantra _ Kailash Kher _ Kailasa Ishq Anokha.mp3"
+                ]
     },
     {
         name: "ghazal",
