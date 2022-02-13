@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Geetmala</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="icon" href="images/radio.ico" />
     <title></title>
@@ -35,9 +35,11 @@
             <div class="controllers">
                 <div class="volume">
                     <!-- <p id="volume_show">90</p> -->
-                    <i class="fa fa-volume-up" aria-hidden="true" id="volume_icon" onclick="mute_sound()"></i>
+                    <button  onclick="toggle_mute()" id="volume_icon">
+                      <i class="fa fa-volume-up" aria-hidden="true"></i>
+                    </button>
                 </div>
-                <input type="range" min="0" max="100" value="90" onchange="volume_change()">
+                <input type="range" min="0" max="100" value="90" onchange="volume_change()" id="volume">
                 <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward" 
                 aria-hidden="true"></i></button>
                 <button onclick="justplay()" id="play"><i class="fa fa-play" 
