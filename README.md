@@ -11,3 +11,22 @@ Great for the eldery who have trouble navigating Youtube,
 all songs can be accessed with the click of a single button!
 
 ## Preview - [Live Site](https://geetmala.netlify.app/)
+
+<img alt="Geetmala-Play" src="https://github.com/RosaliaSL/Geetmala/blob/main/screenshots/Geetmala-play.png">
+
+## Features  
+
+- 5 unique music theme 
+- 50+ Songs
+- Fully functional audio control 
+- Skip and go back previous tracks 
+- Slick UI
+- High quality audio 
+
+## Tools 🛠️
+
+- HTML
+- CSS
+- JavaScript
+
+Live: https://geetmala.netlify.app/
