@@ -10,19 +10,19 @@ let all_videos = [
     },
     {
       name: "sad",
-      path: "videos/sad.mov",
+      path: "videos/sad.mp4",
     },
     {
         name: "happy",
-        path: "videos/happy.mov",
+        path: "videos/happy.mp4",
     },
     {
         name: "sufi",
-        path: "videos/sufi.mov",
+        path: "videos/sufi.mp4",
     },
     {
         name: "ghazal",
-        path: "videos/ghazal.mov",
+        path: "videos/ghazal.mp4",
     }
  ];
 
