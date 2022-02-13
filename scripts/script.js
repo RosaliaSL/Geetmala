@@ -55,13 +55,17 @@ let all_videos = [
         name: "happy",
         path: "videos/happy.mp4",
         music: ["music/Camélia_Jordana_Moi_c_est.mp3",
-                "music/Danish_Girl_(getmp3.pro).mp3"]
+                ]
     },
     {
         name: "sufi",
         path: "videos/sufi.mp4",
         music: ["music/sufi/Mann Ki Lagan.mp3",
-                "music/sufi/Maula Mere Maula(ANWAR) HD [VERY HIGH QUALITY VIDE.mp3"]
+                "music/sufi/Maula Mere Maula(ANWAR) HD [VERY HIGH QUALITY VIDE.mp3",
+                "music/sufi/Afreen Afreen _ Sangam (1996) _ Hindi Video Song _ Nusrat Fateh Ali Khan.mp3",
+                "music/sufi/Sanu Ek Pal Chain Video _ Raid _ Ajay Devgn _ Ileana D'Cruz_ Tanishk B Rahat Fateh Ali Khan Manoj M.mp3",
+                "music/sufi/Ishq Anokha -  Kailash Kher _ ft. Nawazuddin Siddiqui & Sobhita Dhulipala.mp3",
+                "music/sufi/Tere Ishq Nachaya - Official Music Video _ Samarjeet Randhava.mp3"]
     },
     {
         name: "ghazal",
