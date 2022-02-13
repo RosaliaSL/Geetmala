@@ -75,8 +75,17 @@ let all_videos = [
     {
         name: "ghazal",
         path: "videos/ghazal.mp4",
-        music: ["music/Camélia_Jordana_Moi_c_est.mp3",
-                "music/Danish_Girl_(getmp3.pro).mp3"]
+        music: ["music/ghazal/Tum Itna Jo Muskura Rahe Ho _ Ghazal Song _ Arth _ Jagjit Singh.mp3",
+                "music/ghazal/Jhuki Jhuki Si Nazar _ Jagjit Singh _ Arth 1983 Songs _ Ghazal Song _ Shabana Azmi,  Raj Kiran.mp3",
+                "music/ghazal/Tum Ko Dekha Toh Ye Khayal - Jagjit Singh Ghazals (HD)- Deepti Naval - Farooq sheikh - Saath Saath.mp3",
+                "music/ghazal/Chithi Na Koi Sandesh.mp3",
+                "music/ghazal/Koi Yeh Kaise Bataye _ Ghazal Song _ Jagjit Singh.mp3",
+                "music/ghazal/Yeh Tera Ghar Yeh Mera - Deepti Naval - Farooque Sheikh - Saath Saath - Jagjit Singh - Chitra Singh.mp3",
+                "music/ghazal/Woh Kagaz Ki Kashti _ Ghazal Song _ Jagjit Singh _ Sudarshan Faakir _ Aaj.mp3",
+                "music/ghazal/Pyar Mujh Se Jo Kiya Tumne - Deepti Naval - Farooque Sheikh - Saath Saath - Jagjit Singh - Ghazals.mp3",
+                "music/ghazal/Gham Ka Khazana Tera Bhi Hai Mera Bhi Hai Lata Mangeshkar and Jagjit Singh.mp3",
+                "music/ghazal/Seene Mein Jalan, Aankhon Mein Toofan Sa Kyun Hai.mp3",
+                ]
     }
  ];
 
