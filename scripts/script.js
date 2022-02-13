@@ -145,3 +145,17 @@ function next_song(){
 		playsong();
 	}
 }
+
+// previous song
+function previous_song(){
+	if(global_music_index > 0){
+		global_music_index-= 1;
+		load_track(global_index_no, global_music_index);
+		playsong();
+
+	}else{
+		global_music_index = all_videos[global_index_no].music.length - 1;
+		load_track(global_index_no, global_music_index);
+		playsong();
+	}
+}
