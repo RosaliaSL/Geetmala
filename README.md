@@ -12,6 +12,8 @@ all songs can be accessed with the click of a single button!
 
 ## Preview - [Live Site](https://geetmala.netlify.app/)
 
+Please wait for a few seconds for the website to load fully to have a better experience.
+
 <img alt="Geetmala-Play" src="https://github.com/RosaliaSL/Geetmala/blob/main/screenshots/Geetmala-play.png">
 
 ## Features  
