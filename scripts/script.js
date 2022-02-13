@@ -54,7 +54,16 @@ let all_videos = [
     {
         name: "happy",
         path: "videos/happy.mp4",
-        music: ["music/Camélia_Jordana_Moi_c_est.mp3",
+        music: ["music/happy/Arey Deewano Mujhe Pehchano Kishore Kumar Amitabh Bachchan Don 1978  Remastered Audio 1080P.mp3",
+                "music/happy/Aanewala Pal Janewala Hai _ Golmaal _ Hindi Film Song _ Kishore Kumar.mp3",
+                "music/happy/Maine Tere Liye Hi Saat Rang Ke Sapne - Mukesh - Rajesh Khanna, Ramesh Deo, Seema Deo - Anand 1971.mp3",
+                "music/happy/Apni To Jaise Taise Jhankar HD ,Laawaris 1981, frm Saadat DVRCpWofaBA.mp3",
+                "music/happy/O Haseena Zulfon Waali HD 1080p RIZ.mp3",
+                "music/happy/Ajeeb Dastan - HD - Raaj Kumar, Meena Kumari, Nadira.mp3",
+                "music/happy/Chala Jata Hoon _ Sanam.mp3",
+                "music/happy/Namak Halaal  - Ke Pag Ghunghroo Bandh Meera - Kishore Kumar - Chorus.mp3",
+                "music/happy/Disco Dancer - I Am A Disco Dancer Zindagi Mera Gaana - Vijay Benedict.mp3",
+                "music/happy/Didi Tera Devar Deewana - Hum Aapke Hain Koun - Lata Mangeshkar & S. P. Balasubramaniam's Hit Song.mp3"
                 ]
     },
     {
