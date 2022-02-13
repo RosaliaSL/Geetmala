@@ -1,5 +1,15 @@
 # Geetmala 📻 - An online version of Saregama Carvaan
 
+## Information related to Hack The League hackathon
+Theme: Diversity & Inclusion and Open Innovation
+
+This website falls under both the themes. 
+
+**Diversity & Inclusion**: This website aims to include the elderly who have trouble navigating on conventional websites like youtube, and get overwhelmed
+by the massive amount of information that is availiable on the internet. With our website, they can listen to their favourite songs from a single place without needing to search for them. Most websites aren't made keeping the elderly in mind. We also don't have many music websites which cater to people who
+are interested in listening to old Bollywood music specifically. Most modern websites have a lot of controls which can be confusing to use.
+
+
 ## Description
 Your one-stop jukebox to listen to your favourite bollywood hits from the past!
 An app that lets you browse through different themes to listen to a variety of songs,
