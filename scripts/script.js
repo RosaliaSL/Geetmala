@@ -39,17 +39,17 @@ let all_videos = [
         name: "sad",
         path: "videos/sad.mp4",
         music: ["music/sad/Lagi Aaj Sawan Ki Phir Wo Jhadi Hai.mp3",
-               "music/sad/Tere Bina Zindagi Se - Aandhi [1975] (Original)  - Lata Mangeshkar - Kishore Kumar.mp3", 
+                "music/sad/Tere Bina Zindagi Se - Aandhi [1975] (Original)  - Lata Mangeshkar - Kishore Kumar.mp3", 
                 "music/sad/Kya Hua Tera Wada in HD.mp3",
                 "music/sad/Meri bheegi bheegi si ( Anamika) Kishor Kumar Full hd video Song 2021 #kishorkumar.mp3",
                 "music/sad/Lata Mangeshkar - Kahin Door Jab Din Dhal Jaye (Official Audio).mp3",
                 "music/sad/ये जो मोहब्बत है  - Yeh Jo Mohabbat Hai 4K Video Song _ राजेश खन्ना - किशोर कुमार _ Kati Patang Song.mp3",
+                "music/sad/yara sili sili.mp3",
                 "music/sad/aaja piya tohe pyar du_Baharon Ke Sapne1967_AshaParekh& Rajesh Khanna_Lata_Majrooh_R D Burman _a tri.mp3",
                 "music/sad/Tujhse Naraaz Nahin Zindagi (Male) _ Masoom _ Naseeruddin Shah _ Jugal Hansraj _ #TujhseNaraazNahin.mp3",
                 "music/sad/Guide 1965 Din dhal jaye hai raat na.mp3",
                 "music/sad/Jis Gali Mein Tera Ghar 4K Song _ Mukesh _ Rajesh Khanna _ Kati Patang _Classic Bollywood Video Song.mp3",
-                "music/sad/Jis Gali Mein Tera Ghar 4K Song _ Mukesh _ Rajesh Khanna _ Kati Patang _Classic Bollywood Video Song.mp3"
-        ]
+            ]
     },
     {
         name: "happy",
