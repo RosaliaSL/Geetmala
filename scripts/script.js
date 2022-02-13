@@ -1,5 +1,5 @@
 let track_video = document.querySelector('#track_video');
-let index_no = 0;
+let global_index_no = 0;
 let playing_song = false;
 let playing_video = false;
 let theme_title = document.querySelector('#theme-title');
@@ -14,6 +14,7 @@ let pause_text = document.querySelector('#pause-text');
 
 //create a audio Element
 let track = document.createElement('audio');
+let global_music_index = 0;
 
 let isMuted = false;
 
@@ -22,42 +23,57 @@ let all_videos = [
     {
         name: "romance",
         path: "videos/romance.mov",
-        music: "music/Camélia_Jordana_Moi_c_est.mp3"
+        music: ["music/romance/Lag Jaa Gale - Sadhana, Lata Mangeshkar, Woh Kaun Thi Romantic Song.mp3", 
+                "music/romance/Tujhe Dekha Toh Song _ Dilwale Dulhania Le Jayenge _ Shah Rukh Khan, Kajol _ Lata, Kumar Sanu _ DDLJ.mp3",
+                "music/Camélia_Jordana_Moi_c_est.mp3",
+                "music/Danish_Girl_(getmp3.pro).mp3"]
     },
     {
-      name: "sad",
-      path: "videos/sad.mp4",
-      music: "music/Danish_Girl_(getmp3.pro).mp3"
+        name: "sad",
+        path: "videos/sad.mp4",
+        music: ["music/sad/Lagi Aaj Sawan Ki Phir Wo Jhadi Hai.mp3",
+               "music/sad/Tere Bina Zindagi Se - Aandhi [1975] (Original)  - Lata Mangeshkar - Kishore Kumar.mp3"]
     },
     {
         name: "happy",
         path: "videos/happy.mp4",
+        music: ["music/Camélia_Jordana_Moi_c_est.mp3",
+                "music/Danish_Girl_(getmp3.pro).mp3"]
     },
     {
         name: "sufi",
         path: "videos/sufi.mp4",
+        music: ["music/Camélia_Jordana_Moi_c_est.mp3",
+                "music/Danish_Girl_(getmp3.pro).mp3"]
     },
     {
         name: "ghazal",
         path: "videos/ghazal.mp4",
+        music: ["music/Camélia_Jordana_Moi_c_est.mp3",
+                "music/Danish_Girl_(getmp3.pro).mp3"]
     }
  ];
 
- function load_theme(index_no) {
+function load_track(index_no, music_index) {
+    track.src = all_videos[index_no].music[music_index];
+}
+
+function load_theme(index_no, music_index) {
+    global_index_no = index_no;
+    global_music_index = music_index;
     pause_gif.style.display = 'none';
     pause_text.style.display = 'none';
     playing_song = true;
-    track.src = all_videos[index_no].music;
+    load_track(index_no, music_index);
     track_video.src = all_videos[index_no].path;
     theme_title.innerHTML = all_videos[index_no].name;
     justplay();
  }
 
- load_theme(index_no);
+load_theme(global_index_no, global_music_index);
 
  //mute sound function
 function mute_sound(){
-
 	track.volume = 0;
 	recent_volume.value = 0;
     volume_icon.innerHTML = '<i class="fa fa-volume-xmark" aria-hidden="true"></i>';
@@ -111,7 +127,21 @@ function playsong(){
 function reset_slider(){
     slider.value = 0;
 }
-  // change volume
+
+// change volume
 function volume_change(){
 	track.volume = recent_volume.value / 100;
+}
+
+// next song
+function next_song(){
+    if(global_music_index < all_videos[global_index_no].music.length - 1){
+		global_music_index += 1;
+		load_track(global_index_no, global_music_index);
+		playsong();
+	}else{
+		global_music_index = 0;
+		load_track(global_index_no, global_music_index);
+		playsong();
+	}
 }
