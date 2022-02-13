@@ -50,8 +50,8 @@ let all_videos = [
     {
         name: "sufi",
         path: "videos/sufi.mp4",
-        music: ["music/Camélia_Jordana_Moi_c_est.mp3",
-                "music/Danish_Girl_(getmp3.pro).mp3"]
+        music: ["music/sufi/Mann Ki Lagan.mp3",
+                "music/sufi/Maula Mere Maula(ANWAR) HD [VERY HIGH QUALITY VIDE.mp3"]
     },
     {
         name: "ghazal",
